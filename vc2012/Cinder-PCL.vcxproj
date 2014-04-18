@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\common\angles.h" />
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\common\bivariate_polynomial.h" />
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\common\boost.h" />
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\common\centroid.h" />
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\common\common.h" />
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\common\common_headers.h" />
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\common\concatenate.h" />
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\common\copy_point.h" />
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\common\distances.h" />
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\common\eigen.h" />
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\common\fft\kiss_fft.h" />
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\common\fft\kiss_fftr.h" />
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\common\fft\_kiss_fft_guts.h" />
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\common\file_io.h" />
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\common\gaussian.h" />
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\common\generate.h" />
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\common\geometry.h" />
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\common\intensity.h" />
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\common\intersections.h" />
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\common\io.h" />
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\common\norms.h" />
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\common\pca.h" />
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\common\piecewise_linear_function.h" />
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\common\point_operators.h" />
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\common\point_tests.h" />
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\common\polynomial_calculations.h" />
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\common\poses_from_matches.h" />
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\common\projection_matrix.h" />
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\common\random.h" />
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\common\spring.h" />
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\common\synchronizer.h" />
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\common\time.h" />
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\common\time_trigger.h" />
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\common\transformation_from_correspondences.h" />
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\common\transforms.h" />
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\common\utils.h" />
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\common\vector_average.h" />
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\console\parse.h" />
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\console\print.h" />
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\console\time.h" />
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\filters\approximate_voxel_grid.h" />
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\filters\bilateral.h" />
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\filters\boost.h" />
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\filters\box_clipper3D.h" />
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\filters\clipper3D.h" />
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\filters\conditional_removal.h" />
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\filters\convolution.h" />
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\filters\convolution_3d.h" />
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\filters\covariance_sampling.h" />
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\filters\crop_box.h" />
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\filters\crop_hull.h" />
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\filters\extract_indices.h" />
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\filters\fast_bilateral.h" />
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\filters\fast_bilateral_omp.h" />
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\filters\filter.h" />
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\filters\filter_indices.h" />
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\filters\frustum_culling.h" />
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\filters\grid_minimum.h" />
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\filters\local_maximum.h" />
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\filters\median_filter.h" />
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\filters\morphological_filter.h" />
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\filters\normal_refinement.h" />
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\filters\normal_space.h" />
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\filters\passthrough.h" />
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\filters\plane_clipper3D.h" />
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\filters\project_inliers.h" />
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\filters\pyramid.h" />
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\filters\radius_outlier_removal.h" />
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\filters\random_sample.h" />
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\filters\sampling_surface_normal.h" />
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\filters\shadowpoints.h" />
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\filters\statistical_outlier_removal.h" />
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\filters\voxel_grid.h" />
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\filters\voxel_grid_covariance.h" />
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\filters\voxel_grid_label.h" />
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\filters\voxel_grid_occlusion_estimation.h" />
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\kdtree\kdtree.h" />
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\kdtree\kdtree_flann.h" />
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\range_image\bearing_angle_image.h" />
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\range_image\range_image.h" />
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\range_image\range_image_planar.h" />
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\range_image\range_image_spherical.h" />
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\search\kdtree.h" />
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\search\octree.h" />
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\search\organized.h" />
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\search\pcl_search.h" />
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\search\search.h" />
+    <ClInclude Include="..\blocks\Cinder-Kinect2\src\Kinect2.h" />
+    <ClInclude Include="..\include\Cinder-PCL.h" />
+    <ClInclude Include="..\include\Resources.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\blocks\Cinder-Kinect2\src\Kinect2.cpp" />
+    <ClCompile Include="..\src\Cinder-PCL.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resources.rc" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{6C150326-CD1B-412B-B326-C4B3ECA7F9E0}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>CinderPCL</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <PreBuildEventUseInBuild>false</PreBuildEventUseInBuild>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(CINDER_DIR)/include;$(BOOST_DIR);../include;$(PCL_DIR);C:\Users\natet_000\dev\eigen\</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(BOOST_DIR)\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions);NOMINMAX;_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(KINECTSDK20_DIR)\inc;$(CINDER_DIR)/include;..\include\boost;../include;..\include\pcl;C:\Users\natet_000\dev\eigen\;C:\Users\natet_000\dev\flann\src\cpp\;..\blocks\Cinder-Kinect2\src</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(CINDER_DIR)\lib\msw\$(PlatformTarget);..\lib\pcl;..\lib\boost\$(PlatformTarget);$(KINECTSDK20_DIR)\lib\$(PlatformTarget);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>kinect20.lib;cinder-$(PlatformToolset)_d.lib;pcl_io_ply_debug.lib;pcl_io_debug.lib;pcl_kdtree_debug.lib;pcl_search_debug.lib;pcl_octree_debug.lib;pcl_common_debug.lib;pcl_filters_debug.lib;pcl_sample_consensus_debug.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreAllDefaultLibraries>
+      </IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>LIBCMT</IgnoreSpecificDefaultLibraries>
+      <DataExecutionPrevention>false</DataExecutionPrevention>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+    </Link>
+    <PreBuildEvent>
+      <Command>xcopy "$(ProjectDir)..\..\..\..\dev\pcl\build\bin\*" "$(ProjectDir)debug" &amp;&amp; xcopy "$(ProjectDir)..\..\..\..\dev\pcl\build\lib\*" "$(ProjectDir)..\lib"</Command>
+    </PreBuildEvent>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>$(CINDER_DIR)\include</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <AdditionalIncludeDirectories>$(CINDER_DIR)/include;$(BOOST_DIR);./include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <AdditionalIncludeDirectories>$(CINDER_DIR)/include;$(BOOST_DIR);./include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <DataExecutionPrevention>false</DataExecutionPrevention>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

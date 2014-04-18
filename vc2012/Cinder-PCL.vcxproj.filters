@@ -1,0 +1,335 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="pcl">
+      <UniqueIdentifier>{d565cd6a-859e-4a15-9409-c8283a60f639}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pcl\common">
+      <UniqueIdentifier>{780aa072-246b-40d3-b2b2-659fb9aae33a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pcl\console">
+      <UniqueIdentifier>{faba02e0-9d58-42d6-b0d0-6826ee8d6ba2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pcl\filters">
+      <UniqueIdentifier>{c036cc2a-3c9e-4dbd-a7f1-0931b956dd28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pcl\common\fft">
+      <UniqueIdentifier>{7644e15f-9a30-4545-a4f0-b0dddfa371c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pcl\kdtree">
+      <UniqueIdentifier>{82697c4a-13d4-4017-b883-417e821b4445}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pcl\range_image">
+      <UniqueIdentifier>{35b4cd70-f587-4183-80c6-1c5342f86a45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pcl\search">
+      <UniqueIdentifier>{6cd57731-5746-450c-8242-8d92a5ea4b9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks">
+      <UniqueIdentifier>{95ed038c-7002-4f74-837c-12e9681f96ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Cinder-Kinect2">
+      <UniqueIdentifier>{a15a3280-3a75-4d70-b7fe-35d389e73f8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Cinder-Kinect2\src">
+      <UniqueIdentifier>{b81d1c0d-7511-448c-8295-1addf2290616}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\Cinder-PCL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\common\eigen.h">
+      <Filter>pcl\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\common\file_io.h">
+      <Filter>pcl\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\common\gaussian.h">
+      <Filter>pcl\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\common\generate.h">
+      <Filter>pcl\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\common\geometry.h">
+      <Filter>pcl\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\common\intensity.h">
+      <Filter>pcl\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\common\intersections.h">
+      <Filter>pcl\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\common\io.h">
+      <Filter>pcl\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\common\norms.h">
+      <Filter>pcl\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\common\pca.h">
+      <Filter>pcl\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\common\piecewise_linear_function.h">
+      <Filter>pcl\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\common\point_operators.h">
+      <Filter>pcl\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\common\point_tests.h">
+      <Filter>pcl\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\common\polynomial_calculations.h">
+      <Filter>pcl\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\common\poses_from_matches.h">
+      <Filter>pcl\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\common\projection_matrix.h">
+      <Filter>pcl\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\common\random.h">
+      <Filter>pcl\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\common\spring.h">
+      <Filter>pcl\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\common\synchronizer.h">
+      <Filter>pcl\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\common\time.h">
+      <Filter>pcl\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\common\time_trigger.h">
+      <Filter>pcl\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\common\transformation_from_correspondences.h">
+      <Filter>pcl\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\common\transforms.h">
+      <Filter>pcl\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\common\utils.h">
+      <Filter>pcl\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\common\vector_average.h">
+      <Filter>pcl\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\common\angles.h">
+      <Filter>pcl\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\common\bivariate_polynomial.h">
+      <Filter>pcl\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\common\boost.h">
+      <Filter>pcl\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\common\centroid.h">
+      <Filter>pcl\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\common\common.h">
+      <Filter>pcl\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\common\common_headers.h">
+      <Filter>pcl\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\common\concatenate.h">
+      <Filter>pcl\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\common\copy_point.h">
+      <Filter>pcl\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\common\distances.h">
+      <Filter>pcl\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\common\fft\_kiss_fft_guts.h">
+      <Filter>pcl\common\fft</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\common\fft\kiss_fft.h">
+      <Filter>pcl\common\fft</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\common\fft\kiss_fftr.h">
+      <Filter>pcl\common\fft</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\console\parse.h">
+      <Filter>pcl\console</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\console\print.h">
+      <Filter>pcl\console</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\console\time.h">
+      <Filter>pcl\console</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\filters\statistical_outlier_removal.h">
+      <Filter>pcl\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\filters\voxel_grid.h">
+      <Filter>pcl\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\filters\voxel_grid_covariance.h">
+      <Filter>pcl\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\filters\voxel_grid_label.h">
+      <Filter>pcl\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\filters\voxel_grid_occlusion_estimation.h">
+      <Filter>pcl\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\filters\approximate_voxel_grid.h">
+      <Filter>pcl\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\filters\bilateral.h">
+      <Filter>pcl\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\filters\boost.h">
+      <Filter>pcl\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\filters\box_clipper3D.h">
+      <Filter>pcl\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\filters\clipper3D.h">
+      <Filter>pcl\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\filters\conditional_removal.h">
+      <Filter>pcl\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\filters\convolution.h">
+      <Filter>pcl\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\filters\convolution_3d.h">
+      <Filter>pcl\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\filters\covariance_sampling.h">
+      <Filter>pcl\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\filters\crop_box.h">
+      <Filter>pcl\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\filters\crop_hull.h">
+      <Filter>pcl\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\filters\extract_indices.h">
+      <Filter>pcl\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\filters\fast_bilateral.h">
+      <Filter>pcl\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\filters\fast_bilateral_omp.h">
+      <Filter>pcl\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\filters\filter.h">
+      <Filter>pcl\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\filters\filter_indices.h">
+      <Filter>pcl\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\filters\frustum_culling.h">
+      <Filter>pcl\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\filters\grid_minimum.h">
+      <Filter>pcl\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\filters\local_maximum.h">
+      <Filter>pcl\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\filters\median_filter.h">
+      <Filter>pcl\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\filters\morphological_filter.h">
+      <Filter>pcl\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\filters\normal_refinement.h">
+      <Filter>pcl\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\filters\normal_space.h">
+      <Filter>pcl\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\filters\passthrough.h">
+      <Filter>pcl\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\filters\plane_clipper3D.h">
+      <Filter>pcl\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\filters\project_inliers.h">
+      <Filter>pcl\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\filters\pyramid.h">
+      <Filter>pcl\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\filters\radius_outlier_removal.h">
+      <Filter>pcl\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\filters\random_sample.h">
+      <Filter>pcl\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\filters\sampling_surface_normal.h">
+      <Filter>pcl\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\filters\shadowpoints.h">
+      <Filter>pcl\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\kdtree\kdtree_flann.h">
+      <Filter>pcl\kdtree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\range_image\range_image.h">
+      <Filter>pcl\range_image</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\range_image\range_image_planar.h">
+      <Filter>pcl\range_image</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\range_image\range_image_spherical.h">
+      <Filter>pcl\range_image</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\range_image\bearing_angle_image.h">
+      <Filter>pcl\range_image</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\search\kdtree.h">
+      <Filter>pcl\search</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\search\octree.h">
+      <Filter>pcl\search</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\search\organized.h">
+      <Filter>pcl\search</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\search\pcl_search.h">
+      <Filter>pcl\search</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\search\search.h">
+      <Filter>pcl\search</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Program Files\PCL\include\pcl-1.7\pcl\kdtree\kdtree.h">
+      <Filter>pcl\kdtree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\blocks\Cinder-Kinect2\src\Kinect2.h">
+      <Filter>Blocks\Cinder-Kinect2\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Resources.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\Cinder-PCL.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\blocks\Cinder-Kinect2\src\Kinect2.cpp">
+      <Filter>Blocks\Cinder-Kinect2\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resources.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

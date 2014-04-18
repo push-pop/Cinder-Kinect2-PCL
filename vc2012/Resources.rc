@@ -1,0 +1,4 @@
+#include "../include/Resources.h"
+
+1	ICON	"..\\resources\\cinder_app_icon.ico"
+2   RES_IMG "..\\resources\\table_scene_lms400.pcd"
